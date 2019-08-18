@@ -8,4 +8,5 @@ Línea 17: El tipo primitivo "Char" está mal definido, debería de ser "char". 
 Línea 18: La variable "ch" no está definida. Cambié la variable "ch" a "ch1", que sí es una variable definida.
 Línea 18: Está mal definida la variable de tipo char "w". Cambié "w" por 'w', ya que las variables tipo char se declaran de la forma '(varible)'.
 
-Error de ejecución: En la línea 19 se tiene la expresión 1/(a-3), en dónde a=3, lo cual nos resulta una división entre 0 la cual da infinito. A la expresión (a-3) le súme 1, lo cual quedo como 1/((a-3)+1).
+Error de ejecución: En la línea 19 se tiene la expresión 1/(a-3), en dónde a=3, lo cual nos resulta una división entre 0.
+                    A la variable char 'a', le asigne la constante a=5 en la línea 6.

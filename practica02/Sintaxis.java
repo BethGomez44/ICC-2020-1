@@ -3,7 +3,7 @@ import static java.lang.Math.sqrt;
 public class Sintaxis {
 
 	public static void main(String[] args) {
-		int a, b = 20, c;
+		int a = 5, b = 20, c;
 		a = 3; c = -7;
 
 		boolean prop = true;
