@@ -1,5 +1,5 @@
 Línea 9: El tipo primitivo booleaN no existe. Cambié a boolean.
-Línea 9: El tipo primitivo boolean solo acepta valores de verdadero o falso. Cambie el 0 a true.
+Línea 9: El tipo primitivo boolean solo acepta valores de verdadero o falso. Cambié el 0 a true.
 Línea 10: Se asigno un byte fuera del rango. Cambié de 128 a 120.
 Línea 11: Se asigno un short fuera del rango. Cambié de -32769 a -32760.
 Línea 14: Está mal definida la variable Discriminante. Cambié a discriminante, la cual sí es una variable definida.
@@ -8,5 +8,9 @@ Línea 17: El tipo primitivo "Char" está mal definido, debería de ser "char". 
 Línea 18: La variable "ch" no está definida. Cambié la variable "ch" a "ch1", que sí es una variable definida.
 Línea 18: Está mal definida la variable de tipo char "w". Cambié "w" por 'w', ya que las variables tipo char se declaran de la forma '(varible)'.
 
+<<<<<<< HEAD
 Error de ejecución: En la línea 19 se tiene la expresión 1/(a-3), en dónde a=3, lo cual nos resulta una división entre 0.
                     A la variable char 'a', le asigne la constante a=5 en la línea 6.
+=======
+Error de ejecución: En la línea 19 se tiene la expresión 1/(a-3), en dónde a=3, lo cual nos resulta una división entre 0. A la expresión (a-3) le súme 1, lo cual quedo como 1/((a-3)+1).
+>>>>>>> 6729aab0b6e8936974a07eb1491408fde03d8207
