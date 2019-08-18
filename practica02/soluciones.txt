@@ -9,4 +9,4 @@ Línea 18: La variable "ch" no está definida. Cambié la variable "ch" a "ch1",
 Línea 18: Está mal definida la variable de tipo char "w". Cambié "w" por 'w', ya que las variables tipo char se declaran de la forma '(varible)'.
 
 Error de ejecución: En la línea 19 se tiene la expresión 1/(a-3), en dónde a=3, lo cual nos resulta una división entre 0.
-                    Cambié la variable char 'a' en la línea 19, por la variable char 'b'
+                    Cambié la variable char 'a' en la línea 19, por la variable char 'b'.
