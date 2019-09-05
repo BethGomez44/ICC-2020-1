@@ -1,0 +1,13 @@
+Operadores.java
+La razón por la cual salen diferentes resultados es porque cuando tenemos "dividendoEntero / divisor"
+el resultado nos mostrara solamente el entero, ya que por la declaración de la variable "dividendoEntero"
+está definida por un tipo de dato "int".
+Y cuando tenemos "dividendoReal / divisor" nos mostrara todo el resultado, ya que por la declaración de la variable "dividendoReal"
+está definida por un tipo de dato "double".
+
+PrePost.java
+La razón por la cual aparece 2 veces el número 17 es por la precedencia de operadores y
+la manera en la que el operador "--" en especifico se encuentra colocado,
+ya que al colocar "--x" está realizando un pre-decremento a la variable "x" anterior a este operador.
+Por otro lado, al ser colocada "x--" está realizando un post-decremento a la variable "x" que sigue
+después de este. Por eso mismo, antes de el primer 17 aparece 18 y en el siguiente, aparece 16.
