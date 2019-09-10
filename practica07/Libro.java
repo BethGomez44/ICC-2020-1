@@ -59,7 +59,7 @@ public class Libro {
 
     /**
       * Metodo para acceder al titulo
-      * @return el titulo
+      * @return El titulo
       */
        public String obtenerTitulo() {
           return titulo;
@@ -67,7 +67,7 @@ public class Libro {
 
     /**
       * Metodo para acceder al autor
-      * @return el autor
+      * @return El autor
       */
        public String obtenerAutor() {
           return autor;
@@ -75,7 +75,7 @@ public class Libro {
 
     /**
       * Metodo para acceder al año de publicacion
-      * @return el año
+      * @return El año de publicacion
       */
        public int obtenerAño() {
           return año;
