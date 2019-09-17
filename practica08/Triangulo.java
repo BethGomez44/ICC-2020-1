@@ -14,7 +14,6 @@ package geometria;
         * ESCALENO -- Triángulo con todos sus lados de longitud distinta.
         * ISOSCELES -- Triángulo con exactamente dos lados de la misma longitud.
         */
-   
       public static final int EQUILATERO = 0;
       public static final int ESCALENO = 2;
       public static final int ISOSCELES = 1;
