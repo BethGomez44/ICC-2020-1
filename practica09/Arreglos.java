@@ -1,5 +1,7 @@
 /**
  * Clase para practicar el uso de arreglos y la estructura for.
+ * @author Gomez de la Torre Heidi Lizbeth
+ * @version 24/Sep/2019
  */
 public class Arreglos {
 
