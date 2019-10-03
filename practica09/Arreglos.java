@@ -42,9 +42,9 @@ public class Arreglos {
      * @return true si existen dos elementos consecutivos que sumen a k
      */
     public static boolean consecutivos(int[] arr, int numDado) {
-      for (int i = 0; i < arr.length - 1; i++){
-        if(arr[i] + arr[i+1] == numDado){
-          return true;
+      for (int i = 0; i < arr.length - 1; i++) {
+        if (arr[i] + arr[i+1] == numDado) {
+           return true;
         }
       }
       return false;
@@ -70,10 +70,10 @@ public class Arreglos {
     public static void main(String[] args) {
         pruebasDe2a4();
         int[] grupo = new int [10];
-        for(int i=0;i<grupo.length;i++){
+        for (int i=0;i<grupo.length;i++) {
           grupo[i]=i;
         }
-        if (suma(grupo)!= 45) {
+        if (suma(grupo) != 45) {
           System.out.println("El inciso 5 debería dar como resultado " + suma(grupo) );
         } else {
           System.out.println("El inciso 5 está bien.");
