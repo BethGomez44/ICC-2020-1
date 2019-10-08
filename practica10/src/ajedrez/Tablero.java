@@ -32,7 +32,7 @@ import processing.core.PApplet;
           public void draw () {
             final int negro = 0xFF000000;
             final int blanco = 0xFFFFFAF0;
-            final int tabla = 700;
+            final int tabla = 720;
             int y = 180;
             int x = 90;
 
