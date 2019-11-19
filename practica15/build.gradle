@@ -1,0 +1,12 @@
+plugins {
+    id 'java';
+    id 'application'
+}
+
+application {
+    mainClassName = 'practica15.Prueba'
+}
+
+repositories {
+    jcenter()
+}

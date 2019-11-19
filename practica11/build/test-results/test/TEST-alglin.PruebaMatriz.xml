@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="alglin.PruebaMatriz" tests="8" skipped="0" failures="1" errors="0" timestamp="2019-10-20T04:27:51" hostname="debian" time="1.218">
+<testsuite name="alglin.PruebaMatriz" tests="8" skipped="0" failures="1" errors="0" timestamp="2019-11-19T18:31:27" hostname="debian" time="1.664">
   <properties/>
-  <testcase name="probarToString()" classname="alglin.PruebaMatriz" time="0.333"/>
-  <testcase name="probarEliminarColumna()" classname="alglin.PruebaMatriz" time="0.075"/>
-  <testcase name="probarSuma()" classname="alglin.PruebaMatriz" time="0.08"/>
-  <testcase name="probarConstructor()" classname="alglin.PruebaMatriz" time="0.032"/>
-  <testcase name="probarObtenerYAsignar()" classname="alglin.PruebaMatriz" time="0.048"/>
-  <testcase name="probarEliminarFila()" classname="alglin.PruebaMatriz" time="0.087"/>
-  <testcase name="probarEscalar()" classname="alglin.PruebaMatriz" time="0.046"/>
-  <testcase name="probarDeterminante()" classname="alglin.PruebaMatriz" time="0.422">
+  <testcase name="probarToString()" classname="alglin.PruebaMatriz" time="0.416"/>
+  <testcase name="probarEliminarColumna()" classname="alglin.PruebaMatriz" time="0.161"/>
+  <testcase name="probarSuma()" classname="alglin.PruebaMatriz" time="0.095"/>
+  <testcase name="probarConstructor()" classname="alglin.PruebaMatriz" time="0.008"/>
+  <testcase name="probarObtenerYAsignar()" classname="alglin.PruebaMatriz" time="0.032"/>
+  <testcase name="probarEliminarFila()" classname="alglin.PruebaMatriz" time="0.025"/>
+  <testcase name="probarEscalar()" classname="alglin.PruebaMatriz" time="0.013"/>
+  <testcase name="probarDeterminante()" classname="alglin.PruebaMatriz" time="0.859">
     <failure message="expected         : 0.0&#10;but was          : NaN&#10;outside tolerance: 0.001" type="com.google.common.truth.AssertionErrorWithFacts">expected         : 0.0
 but was          : NaN
 outside tolerance: 0.001
