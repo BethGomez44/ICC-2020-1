@@ -1,5 +1,10 @@
 /**
  * Clase para practicar el uso de arreglos y la estructura for.
+<<<<<<< HEAD
+=======
+ * @author Gomez de la Torre Heidi Lizbeth
+ * @version 24/Sep/2019
+>>>>>>> 1a66b5a31f504952553a6bab95388559d95ef81a
  */
 public class Arreglos {
 
@@ -40,9 +45,15 @@ public class Arreglos {
      * @return true si existen dos elementos consecutivos que sumen a k
      */
     public static boolean consecutivos(int[] arr, int numDado) {
+<<<<<<< HEAD
       for (int i = 0; i < arr.length - 1; i++){
         if(arr[i] + arr[i+1] == numDado){
           return true;
+=======
+      for (int i = 0; i < arr.length - 1; i++) {
+        if (arr[i] + arr[i+1] == numDado) {
+           return true;
+>>>>>>> 1a66b5a31f504952553a6bab95388559d95ef81a
         }
       }
       return false;
@@ -68,10 +79,17 @@ public class Arreglos {
     public static void main(String[] args) {
         pruebasDe2a4();
         int[] grupo = new int [10];
+<<<<<<< HEAD
         for(int i=0;i<grupo.length;i++){
           grupo[i]=i;
         }
         if (suma(grupo)!= 45) {
+=======
+        for (int i=0;i<grupo.length;i++) {
+          grupo[i]=i;
+        }
+        if (suma(grupo) != 45) {
+>>>>>>> 1a66b5a31f504952553a6bab95388559d95ef81a
           System.out.println("El inciso 5 debería dar como resultado " + suma(grupo) );
         } else {
           System.out.println("El inciso 5 está bien.");
