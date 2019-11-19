@@ -76,8 +76,8 @@ public class Graficacion {
 	* @param y arreglo que contiene todas las y del modelo
 	* @return regresa la pendiente
 	*/
-    public static double pendiente (double [] x, double [] y ) {
-		double multiXY = 0;
+    public static double pendiente (double [] x, double [] y) {
+	double multiXY = 0;
         double sumaY = 0;
         double sumaX = 0;
         double sumaCuadX = 0;
@@ -98,8 +98,8 @@ public class Graficacion {
 	* @param y arreglo que contiene todas las y del modelo
 	* @return regresa la intersección
 	*/
-    public static double interseccion (double [] x, double [] y ) {
-		double sumaY = 0;
+    public static double interseccion (double [] x, double [] y) {
+	double sumaY = 0;
         double sumaX = 0;
 
 		for (int i = 0 ; i < x.length; i++) {
