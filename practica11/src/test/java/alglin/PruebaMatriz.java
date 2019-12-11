@@ -182,13 +182,8 @@ public class PruebaMatriz {
         assertThat(m4.determinante()).isWithin(TOLERANCE).of(0);
         Matriz matriz = new Matriz(4, 4);
         double[][] ds = {{9, 1, 2, 8}, {2, 9, 7, 3}, {3, 4, 8, 5}, {5, 8, 3, 3}};
-<<<<<<< HEAD
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-=======
-        for (int i = 0; i < p; i++) {
-            for (int j = 0; j < p; j++) {
->>>>>>> 1a66b5a31f504952553a6bab95388559d95ef81a
                 matriz.asignarEntrada(ds[i][j], i, j);
             }
         }
