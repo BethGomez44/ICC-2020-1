@@ -11,10 +11,11 @@ import java.util.LinkedList;
 public class Peon extends Pieza {
 
     /**
-      * Constructor de un peón con parámetros.
-      * @param color -- El color que se le asignara.
-      * @param posicion -- La posición que se le asignara.
-      */
+     * Constructor de un peón con parámetros.
+     * 
+     * @param color    -- El color que se le asignara.
+     * @param posicion -- La posición que se le asignara.
+     */
     public Peon(Color color, Posicion posicion) {
         super(color, posicion);
     }

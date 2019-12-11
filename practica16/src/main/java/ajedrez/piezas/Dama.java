@@ -13,8 +13,7 @@ public class Dama extends Pieza {
     @Override
     public List<Posicion> obtenerJugadasLegales() {
         var jugadas = new LinkedList<Posicion>();
-        int fila = obtenerPosicion().obtenerFila(),
-            columna = obtenerPosicion().obtenerColumna();
+        int fila = obtenerPosicion().obtenerFila(), columna = obtenerPosicion().obtenerColumna();
         for (int j = columna - 1; j >= 0; j--) {
             if (f(fila, j, jugadas)) {
                 break;
@@ -23,17 +22,17 @@ public class Dama extends Pieza {
         for (int j = columna + 1; j <= 7; j++) {
             if (f(fila, j, jugadas)) {
                 break;
-            }   
+            }
         }
         for (int i = fila - 1; i >= 0; i--) {
             if (f(i, columna, jugadas)) {
                 break;
-            }   
+            }
         }
         for (int i = fila - 1, j = columna + 1; i >= 0 && j <= 7; i--, j++) {
             if (f(i, j, jugadas)) {
                 break;
-            }   
+            }
         }
         return jugadas;
     }

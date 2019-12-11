@@ -1,7 +1,5 @@
 package ajedrez.piezas;
 
 public enum Color {
-    BLANCO,
-    NEGRO,
-    NINGUNO
+    BLANCO, NEGRO, NINGUNO
 }

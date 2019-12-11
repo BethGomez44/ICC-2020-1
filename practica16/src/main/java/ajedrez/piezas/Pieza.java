@@ -11,12 +11,11 @@ public abstract class Pieza {
         this.color = color;
         this.posicion = posicion;
     }
-    
+
     public abstract List<Posicion> obtenerJugadasLegales();
 
     public boolean esJugadaLegal(int fila, int columna) {
-        return obtenerJugadasLegales().
-                contains(new Posicion(fila, columna));
+        return obtenerJugadasLegales().contains(new Posicion(fila, columna));
     }
 
     public Color obtenerColor() {

@@ -7,10 +7,11 @@ import java.util.LinkedList;
 public class Dama extends Pieza {
 
     /**
-      * Constructor de un peón con parámetros.
-      * @param color -- El color que se le asignara.
-      * @param posicion -- La posición que se le asignara.
-      */
+     * Constructor de un peón con parámetros.
+     * 
+     * @param color    -- El color que se le asignara.
+     * @param posicion -- La posición que se le asignara.
+     */
     public Dama(Color color, Posicion posicion) {
         super(color, posicion);
     }
@@ -25,7 +26,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la diagonal superior izquierda.
         for (int i = fila - 1, j = columna - 1; i >= 0 && j >= 0; i--, j--) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -38,7 +39,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la diagonal superior derecha.
         for (int i = fila - 1, j = columna + 1; i >= 0 && j <= 7; i--, j++) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -51,7 +52,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la diagonal inferior izquierda.
         for (int i = fila + 1, j = columna - 1; i <= 7 && j >= 0; i++, j--) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -64,7 +65,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la diagonal inferior derecha.
         for (int i = fila + 1, j = columna + 1; i <= 7 && j >= 0; i++, j++) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -77,7 +78,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la recta vertical.
         for (int i = fila + 1, j = columna; i <= 7; i++) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -90,7 +91,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la recta vertical.
         for (int i = fila - 1, j = columna; i >= 0; i--) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -103,7 +104,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la recta horizontal.
         for (int i = fila, j = columna - 1; j >= 0; j--) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -116,7 +117,7 @@ public class Dama extends Pieza {
 
         // Creador de jugadas para la recta horizontal.
         for (int i = fila, j = columna + 1; j <= 7; j++) {
-        Pieza p = tab.obtenerPieza(i, j);
+            Pieza p = tab.obtenerPieza(i, j);
             if (p == null) {
                 jugadas.add(new Posicion(i, j));
             } else if (p.obtenerColor() != colorPieza) {
@@ -125,7 +126,7 @@ public class Dama extends Pieza {
             } else {
                 break;
             }
-        }        
+        }
         return jugadas;
     }
 }

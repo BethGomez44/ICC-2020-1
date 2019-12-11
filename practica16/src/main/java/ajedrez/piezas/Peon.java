@@ -14,8 +14,7 @@ public class Peon extends Pieza {
     public List<Posicion> obtenerJugadasLegales() {
         var jugadas = new LinkedList<Posicion>();
         Tablero tablero = Tablero.obtenerInstancia();
-        int fila = obtenerPosicion().obtenerFila(),
-            columna = obtenerPosicion().obtenerColumna();
+        int fila = obtenerPosicion().obtenerFila(), columna = obtenerPosicion().obtenerColumna();
         if (obtenerColor() == Color.BLANCO) {
             if (tablero.obtenerPieza(fila - 1, columna) == null) {
                 jugadas.add(new Posicion(fila - 1, columna));
